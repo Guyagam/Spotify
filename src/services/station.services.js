@@ -25,7 +25,7 @@ export const stationService = {
 
 
 function getStation() {
-  return station
+  return [station]
 }
 
 

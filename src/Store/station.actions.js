@@ -8,7 +8,7 @@ import { store } from "./store"
 export function loadStation() {
   try {
     let stations = stationService.getStation()
-    console.log(stations)
+    // console.log(stations)
     store.dispatch({ type: SET_STATIONS, stations })
 
   } catch (err) {
